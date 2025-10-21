@@ -68,13 +68,23 @@ nav a {
   color: #0a2d6b;
   text-decoration: none;
 }
+nav a:link {
+  color: #041c44;
+}
 
-nav a:hover {
+nav a:visited {
   text-decoration: underline;
-  color: rgb(255, 0, 128);
+  background-color: #d900b514;
+  color: rgb(46, 0, 153);
   text-shadow: 0 0 1px rgb(132, 127, 132);
 }
 
+nav a:hover {
+  text-decoration: underline;
+  background-color: #db00b73a;
+  color: rgb(255, 0, 128);
+  text-shadow: 0 0 1px rgb(132, 127, 132);
+}
 
 main {
   width: 70%;
@@ -129,13 +139,21 @@ aside ul {
 aside li{
     margin-bottom: 8px;
 }
-aside a {
+aside a:link {
   color: #0a2d6b;
   text-decoration: none;
 }
 
+aside a:visited {
+  text-decoration: underline;
+  background-color: #d900b514;
+  color: rgb(34, 0, 205);
+  text-shadow: 0 0 1px rgb(132, 127, 132);
+}
+
 aside a:hover {
   text-decoration: underline;
+  background-color: hsla(310, 100%, 43%, 0.228);
   color: rgb(255, 0, 128);
   text-shadow: 0 0 1px rgb(132, 127, 132);
 }
